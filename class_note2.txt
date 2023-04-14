@@ -1,0 +1,66 @@
+3/4/2022
+difference between update and alter
+Update chane data or recordsow
+alter is used to change structure
+
+constraints in sql server(to define rules)
+default
+not null
+check
+unique
+primary key-not null, unique
+foreign key-prevents any actions that would delete table data
+
+By default when u create a primary key clustered index is created
+
+In order to delete the data between pk and fk first delete in the fk
+
+
+
+
+ODBC driver or any drivers is a communication between application and database
+
+
+
+
+04/12/2022
+Joins
+left,right, inner, full, cross,
+Inner/natural-both are same
+left- left + matching records
+right-right + matching records
+full-left+right+matching 
+cross join-cartesian
+
+--update data using joins
+--we can update only on existing column in sql server
+
+
+--Merge
+Merge table A using Table B
+on Id=Id
+
+
+
+-10/12/2022
+Diff b/w insert into selectinto
+insert into requires a table with same datatype
+select into will copy the data from one table to other 
+
+union-it will remove duplicates from both tables
+unionall-it will give matching and non matching records
+
+--Except and intersect
+Except-non matching records in table A.
+intersect-matching records from both tables.
+
+Temporary tables:
+Local-stored temproraily(it is limited to the particular session)
+Gloabl-we can access the table from another query.
+
+--orderby
+--Aggregate functions
+--like operators
+--groupby
+--ROLLUP operator is used to calculate sub-totals and grand totals 
+--Coalesce  function is used to handle the null values

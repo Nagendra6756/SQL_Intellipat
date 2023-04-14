@@ -1,0 +1,56 @@
+-10/12/2022
+Diff b/w insert into selectinto
+insert into requires a table with same datatype
+select into will copy the data from one table to other 
+
+union-it will remove duplicates from both tables
+unionall-it will give matching and non matching records
+
+--Except and intersect
+Except-non matching records in table A.
+intersect-matching records from both tables.
+
+Temporary tables:
+Local-stored temproraily(it is limited to the particular session)
+Gloabl-we can access the table from another query.
+
+--orderby
+--Aggregate functions
+--like operators
+--groupby
+--ROLLUP operator is used to calculate sub-totals and grand totals 
+--Coalesce  function is used to handle the null values
+
+--11/12/22
+cube-it gives all combinations
+when grouping
+
+--programming constructs
+--TCL 
+
+--OLTP(store the data)Live data(real-time data).
+--Datawarehoue(storing the data for long time)Historical data.
+
+-Loops in sql
+--if, while
+--case
+
+--View
+main purpose of view is to read the data.
+
+--stored procedure
+
+--scaler valued func:will always return int, char decimal value.
+
+--table valued func: will always returns a table data.
+
+--Normalization
+Resolving issues of data redundancy and improving storage efficiency, data integrity, scalability.
+
+1st NF-spli the data
+2nd nf-remove the redundancy
+3rd nf-add the key column if not present
+
+--rank, dense_rank, row_number
+
+

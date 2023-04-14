@@ -1,0 +1,21 @@
+Module-2
+Lecture-4
+datawarehouse --data mart
+data mart is subset of datawarehouse
+Types of data mart
+1.dependent data mart:
+the data is first extracted from the OLTP systems and then populated in the central dwh.
+From the DWH, the data travels to data mart
+
+2.independent: Data directly received from source.
+Suitable for small organizations
+
+Module-2
+lecture 5
+Data model:
+conceptual:attributes are not specified.primary key is not specified.
+logical data model:includes all entities and relationship among them.
+All attributes and primary key for each entity is specified.
+phyiscal data model:
+all tables and columns are specified.
+

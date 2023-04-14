@@ -1,0 +1,76 @@
+inner,left,right,full.
+delete, truncate
+update-to modify existing records
+ 
+update emp set age=42 where name='sam'
+update set dept='tech' where gender='female'
+
+update emp set sal=50000
+
+update and delete records using join:
+
+update emp
+set age=age+10
+from emp 
+join dept 
+on e.dept=dept.name
+where d.loc='newyork'
+
+Merge:combination of insert,update,delete
+
+alter:
+altet table nag
+add mailid varchar(50)
+
+alter table nag
+drop column mailid
+
+Temporary table:
+Created in tempdb and deleted automatically when session is closed.it is represented by #.
+ 
+
+Basic Functions in sql:
+Min,Max,count,sum,avg,
+
+string functions:
+LTRIM-removes blank space on left side.
+Lower(),upper(),
+reverse(),
+substring()-
+select substring('this is sparta',9,6)
+
+Case statements:
+select case 
+when 10>20 then '10 is greater'
+when 10<20 then '10 is lesser'
+else '10 is equal'
+end
+
+IIF():
+
+USER-DEFINED-FUNCTIONS:
+SCALER VALUED FUNCTION:ALWAYS RETURN SCALER VALUE(int).
+
+Create fun add_five(@num int)
+returns int
+as
+begin
+return(
+@num+5)
+end
+
+select dbo.add_Five(10)
+
+Table valued function:Returns table
+
+
+create fun gender(@gender varchar(20))
+returns table
+as 
+return
+(select * from emp where e_gender=@gender)
+
+select * from dbo.gender('Male')
+
+
+

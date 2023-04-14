@@ -1,0 +1,43 @@
+Why sql?
+we can store trillions of data and retrive.
+Reliable.
+
+RDMS like--oracle, sql, Mysql, postgree, casandra.
+
+oracle works with Linux
+sql works with both
+
+what is RDBMS?
+Tables are related in RDBMS
+
+Versions of SQL
+Enterprise-used in companies
+Standard-for a specific requirement
+web/express-Limited features
+
+UAT/DEV/PRE PROD-
+Developer edition-
+prod enivironment is nothing but connecting to the application.
+preprod-where we do all the testing before moving to prod
+
+what is database?
+Database-systematic collection of data which is stored on electronic device used to read and write data or information
+
+Nosql-there is no relation ship between tables
+
+datatypes-
+int-1,2,3
+char-a,b,c
+string-'hellow','nag@123'
+float-1.2,575.65
+char(3)-stores only characters
+varchar(6)-stores variable and char
+Date-'yyyy-mm-dd'
+Time-hh:mm:ss:mm
+Timestamp-date& time
+
+services
+sql comprises of 3:
+1.engine
+2.sql server agent
+3.brower 

@@ -1,0 +1,9 @@
+function in sql
+typs of subquery
+can we create virtual table using subquery?
+how to find the null values?
+what is case statement?
+exception handling?
+try catch block?
+triggers?
+
